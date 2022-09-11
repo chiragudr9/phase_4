@@ -1,0 +1,18 @@
+<div class="container bg-light py-5">
+<h1 class="display-5 fw-bold">Welcome to angular quiz </h1>
+<p class="col-md-8"> Rules :-</p>
+<h4>
+    <ol>
+        <li>correct question gives you +10 points</li>
+        <li>incorrect answer gives you -10points</li>
+        <li>there will Total nine Questions</li>
+        
+    </ol>
+</h4>
+<h1 style="font-family:cursive ; text-align: center;" > All the Best</h1>
+<div class="name col-md-4 my-3">
+    <label for="">Enter your name : </label>
+    <input #name type="text" class="form-control"><br>
+    <button class="btn btn-primary btn-lg" routerLink="/question" (click)=" startQuiz()">Start the Quiz</button>
+</div>
+</div>
